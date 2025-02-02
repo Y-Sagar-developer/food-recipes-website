@@ -6,14 +6,23 @@
   // https://firebase.google.com/docs/web/setup#available-libraries
 
   // Your web app's Firebase configuration
+  // const firebaseConfig = {
+  //   apiKey: "AIzaSyCROHEhus-0Zoi_a-wYdMt9R3bPNtdoBXk",
+  //   authDomain: "food-recipe-authentication.firebaseapp.com",
+  //   projectId: "food-recipe-authentication",
+  //   storageBucket: "food-recipe-authentication.firebasestorage.app",
+  //   messagingSenderId: "738252052819",
+  //   appId: "1:738252052819:web:980e0b25da7fb51285e9a6"
+  // };
   const firebaseConfig = {
     apiKey: "AIzaSyCROHEhus-0Zoi_a-wYdMt9R3bPNtdoBXk",
     authDomain: "food-recipe-authentication.firebaseapp.com",
     projectId: "food-recipe-authentication",
-    storageBucket: "food-recipe-authentication.firebasestorage.app",
-    messagingSenderId: "738252052819",
-    appId: "1:738252052819:web:980e0b25da7fb51285e9a6"
+    storageBucket: "food-recipe-authentication.appspot.com", // సరి అయిన ఫార్మాట్
+    messagingSenderId: "your-messaging-sender-id",
+    appId: "your-app-id"
   };
+  
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
