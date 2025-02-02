@@ -15,14 +15,13 @@
   //   appId: "1:738252052819:web:980e0b25da7fb51285e9a6"
   // };
   const firebaseConfig = {
-    apiKey: "AIzaSyCROHEhus-0Zoi_a-wYdMt9R3bPNtdoBXk",
-    authDomain: "food-recipe-authentication.firebaseapp.com",
-    projectId: "food-recipe-authentication",
-    storageBucket: "food-recipe-authentication.appspot.com", // సరి అయిన ఫార్మాట్
-    messagingSenderId: "your-messaging-sender-id",
-    appId: "your-app-id"
+    apiKey: "AIzaSyA4MvrK7a2o-UZ2yIvhzfpEJKtUcIJVF2E",
+    authDomain: "food-recipe-e3888.firebaseapp.com",
+    projectId: "food-recipe-e3888",
+    storageBucket: "food-recipe-e3888.appspot.com",
+    messagingSenderId: "479682801897",
+    appId: "1:479682801897:web:de37363b938d7bfb800078",
   };
-  
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
