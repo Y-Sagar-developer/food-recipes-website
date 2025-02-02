@@ -32,7 +32,7 @@ document.querySelectorAll(".password-toggle-icon").forEach(function(toggleIcon){
 let guest = document.getElementById("guest");
 guest.addEventListener("click", (e) => {
   e.preventDefault(); // Prevent default button behavior
-  window.location.href = "../mainpage/index.html"; // Redirect to the signup page
+  window.location.href = "./mainpage/index.html"; // Redirect to the signup page
 });
 
 // let guest1 = document.getElementById("guest1");
